@@ -61,14 +61,14 @@ var head  = document.getElementsByTagName('head')[0];
 var link  = document.createElement('link');
 link.rel  = 'stylesheet';
 link.type = 'text/css';
-link.href = 'https://gerailagu.com/tingle.css';
+link.href = 'https://raw.githack.com/seebinary/quotex/main/tingle.css';
 link.media = 'all';
 head.appendChild(link);
 **/
 
 var binarybid_url = 'https://www.binary.bid';
 var banner_url = binarybid_url;
-var banner_img = 'https://gerailagu.com/banner/forex.jpg';
+var banner_img = 'https://raw.githack.com/seebinary/quotex/main/forex.jpg';
 
 const regex_username = /\/\/([a-zA-Z0-9\-+]+)/;
 
